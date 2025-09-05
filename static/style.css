@@ -6,13 +6,13 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFFFFF; /* Sfondo bianco puro */
+    background-color: #FFFFFF; /* Sfondo bianco puro, come richiesto */
     color: #2c3e50; /* Testo scuro per un'ottima leggibilità */
     line-height: 1.6;
 }
 
 a {
-    color: #00A699; /* Colore verde acqua per i link */
+    color: #00A699; /* Verde acqua per tutti i link */
     text-decoration: none;
     font-weight: 500;
 }
@@ -23,7 +23,7 @@ a:hover {
 
 /* Header */
 header {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* Sfondo bianco puro per l'header */
     color: #2c3e50;
     padding: 1.5rem 2rem;
     display: flex;
@@ -35,6 +35,7 @@ header {
 header .logo {
     font-size: 1.8rem;
     font-weight: 700;
+    color: #00A699; /* Logo con il colore verde acqua */
 }
 
 header nav a {
@@ -49,7 +50,13 @@ header nav a {
 .hero {
     text-align: center;
     padding: 8rem 2rem;
-    background-color: #f8f9fa; /* Un leggero grigio per contrasto */
+    background-color: #f8f9fa; /* Un leggero grigio per dare un po' di profondità, ma molto chiaro */
+}
+
+.hero-icon {
+    font-size: 3rem;
+    color: #00A699; /* Icona roulotte in verde acqua */
+    margin-bottom: 1rem;
 }
 
 .hero h1 {
@@ -91,7 +98,7 @@ header nav a {
 .search-btn {
     padding: 1rem 2.5rem;
     border: none;
-    background-color: #00A699; /* Verde acqua per i pulsanti */
+    background-color: #00A699; /* Pulsante di ricerca in verde acqua */
     color: white;
     border-radius: 8px;
     font-size: 1rem;
@@ -104,11 +111,11 @@ header nav a {
     background-color: #008f82;
 }
 
-/* Sezioni della pagina */
+/* Sezioni della pagina (Differenziazione, Valori, CTA) */
 .differentiation, .values, .cta {
     padding: 6rem 2rem;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* Sfondo bianco puro per tutte le sezioni */
 }
 
 h2 {
@@ -119,53 +126,4 @@ h2 {
 }
 
 .section-icon {
-    color: #00A699; /* Verde acqua per le icone principali */
-}
-
-.comparison, .values-grid {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-}
-
-.comparison-card, .value-card {
-    background-color: #f8f9fa;
-    padding: 2.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    max-width: 450px;
-    text-align: left;
-    transition: transform 0.3s ease;
-}
-
-.comparison-card:hover, .value-card:hover {
-    transform: translateY(-10px);
-}
-
-.comparison-card.airbnb {
-    border-left: 5px solid #FF5A5F; /* Manteniamo il rosso di Airbnb per il confronto */
-}
-
-.comparison-card.mobilhostel {
-    border-left: 5px solid #00A699; /* Verde acqua per il tuo brand */
-}
-
-.comparison-card h3, .value-card h3 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-.card-icon {
-    color: #7f8c8d;
-}
-
-.value-icon {
-    color: #00A699; /* Verde acqua per le icone dei valori */
-}
-
-/* Call to Action (CTA) */
-.cta {
-    background-color: #00A699; /* Verde
+    color: #00A6
